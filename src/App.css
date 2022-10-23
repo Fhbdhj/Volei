@@ -8,16 +8,21 @@
 }
 
 html{
-  font-size: 60%;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body{
-  font-size: 1.5rem;
-  font-weight: 400;
-  background-color: #fff;
-  z-index: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'poppins', sans-serif;
 }
+
+
 
 h1,h2,h3,h4{
   font-weight: 500;
@@ -49,27 +54,36 @@ li{
 }
 
 .desc{
-  margin-right: 80rem;
-  margin-top: 15rem;
+  padding: 5vw;
   text-align: center;
-}
-
-.desc .team{
-  margin-left: 10rem;
-}
-
-.desc .tt{
   text-align: justify;
-  margin-top: 2rem;
-  margin-left: 12rem;
+}
+
+.team{
+  margin-top: 3vw;
+  margin-left: 12vw;
+  padding: 0;
+  font-size: 2vw;
+  position: relative;
+}
+
+.tt{
+  margin-top: 2vw;
+  margin-right: 45vw;
+  padding: 0;
+  font-size: 1.2vw;
+  position: relative;
+  text-align: justify;
+  display: block;
+  font-weight: 400;
 }
 
 
 .header img{
   position: absolute;
   right: 5%;
-  bottom: 8rem;
-  width: 60rem;
+  bottom: 8vw;
+  width: 40vw;
   z-index: -1;
 
 }
@@ -89,10 +103,13 @@ li{
 }
 
 .logo img{
+  position: absolute;
+  left: 4%;
+  bottom: 52rem;
   width: 10rem;
-  margin-right: 125rem;
-  bottom: 50rem;
-  left: 5rem;
+  z-index: -1;
+  display: block;
+  
   
 }
  
@@ -127,3 +144,69 @@ li{
   background-color: #2e43b9;
   color: #ffcc02;
 }
+
+@media screen and (max-width:998px) {
+  html{
+    font-size: 55%;
+  }  
+}
+
+@media screen and (max-width:768px) {
+  html{
+    font-size: 45%;
+  }  
+}
+
+
+@media screen and (max-width:378px) {
+ 
+  .header img{
+    position: absolute;
+    right: 1%;
+    margin-bottom: 110vw;
+    width: 50vw;
+    z-index: -1;
+    margin-left: 20vw;
+  
+  }
+
+  .logo img{
+    margin-left: 1vw;
+    bottom: 40vw;
+    width: 15vw;
+    z-index: -1;  
+  }
+ 
+  html{
+    font-size: 45%;
+    font-weight: bold;
+  }  
+}
+
+
+@media screen and (max-width:388px) {
+ 
+  .header img{
+    position: absolute;
+    right: 1%;
+    margin-bottom: 110vw;
+    width: 50vw;
+    z-index: -1;
+    margin-left: 20vw;
+  
+  }
+
+.logo img{
+  margin-left: 1vw;
+  bottom: 40vw;
+  width: 15vw;
+  z-index: -1;  
+}
+ 
+  html{
+    font-size: 45%;
+    font-weight: bolder;
+  }  
+}
+
+
