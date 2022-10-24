@@ -18,7 +18,6 @@ import img17 from '../../assets/img/2002.jpg'
 import img18 from '../../assets/img/2006.jpg'
 import img19 from '../../assets/img/2010.jpg'
 import img20 from '../../assets/img/2014.jpg'
-import img21 from '../../assets/img/2018.jpg'
 
 const Categories = [
     {
@@ -160,15 +159,7 @@ const Categories = [
         year:"2014",
         venue:"Brazil",
         image:img20
-    },
-    {
-        id:21,
-        title:"Brazil Team",
-        year:"2018",
-        venue:"Russia",
-        image:img21
-    },
-
+    }
  ]
 
  export default Categories;

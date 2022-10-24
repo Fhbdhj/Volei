@@ -23,11 +23,6 @@ body{
 }
 
 
-/* 
-h1,h2,h3,h4{
-  font-weight: 500;
-} */
-
 a{
   text-decoration: none;
 }
@@ -123,7 +118,6 @@ li{
 }
 
 
-
 .nav-item:not(:last-child){
   margin-right: 0.5rem;
 }
@@ -208,8 +202,33 @@ li{
   margin: 1.09vw 0vw;
 }
 
+.service{
+  background-color: #ffcc02;
+}
 
+.service h1{
+  position: relative;
+  bottom: 45vw;
+  font-weight: 900;
+  font-size: 2.5vw;
+  background-image: url(./assets/img/Capture.PNG);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
 
+.service .serviceBx .cardbox{
+  width: 84%;
+  left: 8%;
+  border-radius: 50vw;
+  background: #1b2141;
+  position: relative;
+  bottom: 38vw;
+  padding: 10vw;
+
+}
 
 
 
