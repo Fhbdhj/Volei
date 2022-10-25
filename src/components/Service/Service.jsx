@@ -1,5 +1,7 @@
 import React from 'react'
 import img1 from '../../assets/img/pele.png'
+import img2 from '../../assets/img/kaka.png'
+import img3 from '../../assets/img/pele.png'
 
 const Service = () => {
   return (
@@ -13,6 +15,9 @@ const Service = () => {
             </div>
             
             <div className="cardbox1">
+            <img src={img2} alt="" />
+                <h1>KAKA</h1>
+                <p>Kaká, byname of Ricardo Izecson dos Santos Leite, (born April 22, 1982, Brasília, Brazil), Brazilian football (soccer) player who was named the World Player of the Year by the Fédération Internationale de Football Association (FIFA) in 2007.With success at club and international level, he is one of eight players to have won the FIFA World Cup, the UEFA Champions League and the Ballon d'Or. Kaká made his professional club debut at age 18 at São Paulo in Brazil in 2001, and his performances with the club led to him joining Serie A club AC Milan in 2003.In total, Kaka hit 29 goals for Brazil and is among the top 20 scorers in the history of the side.Kaka is one of the most famous player. Kaka ended his international career with 29 goals and 22 assists in the 92 games he played for Brazil.</p>
             </div>
 
             <div className="cardbox2">

@@ -249,7 +249,7 @@ li{
 }
 
 .service .serviceBx .cardbox p{
-   
+
   position: absolute;
   margin-top: -8vw;
   margin-left: 25vw;
@@ -272,6 +272,34 @@ li{
   margin: 3vw;
   object-fit: cover;
 
+}
+
+.service .serviceBx .cardbox1 img{
+  left: 60vw;
+  bottom: .9vw;
+  width: 23%;
+  height: 92%;
+  object-fit: cover;
+  position: absolute;
+  transform: scaleX(-1);
+}
+
+.service .serviceBx .cardbox1 h1{
+  bottom: 9vw;
+  color: #ffcc02;
+  right: 13vw;
+}
+
+.service .serviceBx .cardbox1 p{
+
+  position: absolute;
+  margin-top: -8vw;
+  margin-right: 35vw;
+  font-size: 1.5rem;
+  color: #ffcc02;
+  text-align: justify;
+
+  
 }
 
 
