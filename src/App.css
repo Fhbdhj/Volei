@@ -20,6 +20,7 @@ body{
   align-items: center;
   min-height: 100vh;
   font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -208,7 +209,7 @@ li{
 
 .service h1{
   position: relative;
-  bottom: 45vw;
+  bottom: 50vw;
   font-weight: 900;
   font-size: 2.5vw;
   background-image: url(./assets/img/Capture.PNG);
@@ -220,15 +221,102 @@ li{
 }
 
 .service .serviceBx .cardbox{
-  width: 84%;
-  left: 8%;
+  width: 86%;
+  left: 5%;
   border-radius: 50vw;
   background: #1b2141;
   position: relative;
-  bottom: 38vw;
+  bottom: 49vw;
   padding: 10vw;
+  margin: 3vw;
+  object-fit: cover;
 
 }
+
+.service .serviceBx .cardbox img{
+  right: 55vw;
+  bottom: 1vw;
+  width: 35%;
+  height: 110%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.service .serviceBx .cardbox h1{
+  bottom: 9vw;
+  color: #ffcc02;
+  left: 12vw;
+}
+
+.service .serviceBx .cardbox p{
+   
+  position: absolute;
+  margin-top: -8vw;
+  margin-left: 25vw;
+  margin-right: 10vw;
+  font-size: 1.5rem;
+  color: #ffcc02;
+  text-align: justify;
+
+
+}
+
+.service .serviceBx .cardbox1{
+  width: 86%;
+  left: 7%;
+  border-radius: 50vw;
+  background: #1b2141;
+  position: relative;
+  bottom: 49vw;
+  padding: 10vw;
+  margin: 3vw;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
