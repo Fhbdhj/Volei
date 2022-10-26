@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from '../../assets/img/pele.png'
 import img2 from '../../assets/img/kaka.png'
-import img3 from '../../assets/img/pele.png'
+import img3 from '../../assets/img/neymar.png'
 
 const Service = () => {
   return (
@@ -21,6 +21,9 @@ const Service = () => {
             </div>
 
             <div className="cardbox2">
+            <img src={img3} alt="" />
+                <h1>NEYMAR</h1>
+                <p>Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar, is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. A prolific goalscorer and renowned playmaker, he is regarded as one of the best players in the world.He is an extremely willing front-runner who is putting in a decent shift in most games. Indeed, his overall performance score, per Squawka, puts him second only to Messi at Barca this season. Compared to Ronaldo's Squawka stats, Neymar's are similarly impressive.Neymar Jr. is one of the most skillful dribblers in the history of football. The 30-year-old first burst onto the scene by virtue of his incredible ability to beat defenders with his innovative dribbling ability. The Brazilian forward is constantly looking to take defenders on and beat them.</p>
             </div>
 
 

@@ -263,7 +263,7 @@ li{
 
 .service .serviceBx .cardbox1{
   width: 86%;
-  left: 7%;
+  left: 5.5%;
   border-radius: 50vw;
   background: #1b2141;
   position: relative;
@@ -286,7 +286,7 @@ li{
 
 .service .serviceBx .cardbox1 h1{
   bottom: 9vw;
-  color: #ffcc02;
+  color: rgb(12, 238, 12);
   right: 13vw;
 }
 
@@ -296,10 +296,65 @@ li{
   margin-top: -8vw;
   margin-right: 35vw;
   font-size: 1.5rem;
+  color: rgb(12, 238, 12);
+  text-align: justify; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service .serviceBx .cardbox2{
+  width: 86%;
+  left: 5%;
+  border-radius: 50vw;
+  background: #1b2141;
+  position: relative;
+  bottom: 49vw;
+  padding: 10vw;
+  margin: 3vw;
+  object-fit: cover;
+
+}
+
+.service .serviceBx .cardbox2 img{
+  right: 65vw;
+  bottom: 1vw;
+  width: 13%;
+  height: 95%;
+  object-fit: cover;
+  position: absolute;
+  transform: rotateY(180deg);
+}
+
+.service .serviceBx .cardbox2 h1{
+  bottom: 9vw;
+  color: #ffcc02;
+  left: 12vw;
+}
+
+.service .serviceBx .cardbox2 p{
+
+  position: absolute;
+  margin-top: -8vw;
+  margin-left: 25vw;
+  margin-right: 10vw;
+  font-size: 1.5rem;
   color: #ffcc02;
   text-align: justify;
 
-  
+
 }
 
 
