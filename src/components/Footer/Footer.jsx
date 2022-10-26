@@ -6,7 +6,7 @@ import {AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id='contact'>
         <div className="waves">
             <div className="wave" id='wave1'></div>
             <div className="wave" id='wave2'></div>
