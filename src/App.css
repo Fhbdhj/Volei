@@ -230,7 +230,6 @@ li{
   padding: 10vw;
   margin: 3vw;
   object-fit: cover;
-
 }
 
 .service .serviceBx .cardbox img{
@@ -257,8 +256,6 @@ li{
   font-size: 1.5rem;
   color: #ffcc02;
   text-align: justify;
-
-
 }
 
 .service .serviceBx .cardbox1{
@@ -271,7 +268,6 @@ li{
   padding: 10vw;
   margin: 3vw;
   object-fit: cover;
-
 }
 
 .service .serviceBx .cardbox1 img{
@@ -299,21 +295,6 @@ li{
   color: rgb(12, 238, 12);
   text-align: justify; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .service .serviceBx .cardbox2{
   width: 86%;
@@ -353,10 +334,43 @@ li{
   font-size: 1.5rem;
   color: #ffcc02;
   text-align: justify;
-
-
 }
 
+.tite{
+  margin-bottom: 120vw;
+  position: absolute;
+  padding: 0vw 7.32vw;
+  width: 100%;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffcc02;
+}
+
+.tite h1{
+  position: absolute;
+  margin-bottom: 90vw;
+  font-weight: 900;
+  font-size: 2.5vw;
+  background-image: url(./assets/img/Capture.PNG);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.tite img{
+  position: absolute;
+  margin-bottom: 50vw;
+}
+
+
+
+
+  
 
 
 
