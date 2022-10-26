@@ -6,7 +6,7 @@ import img3 from '../../assets/img/neymar.png'
 const Service = () => {
   return (
     <div className="service" id='service'>
-        <h1>Best Football Players in Brazil</h1>
+        <h1 className='kik'>Best Football Players in Brazil</h1>
         <div className="serviceBx">
             <div className="cardbox">
                 <img src={img1} alt="" />

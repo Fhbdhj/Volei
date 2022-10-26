@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <div className="about" id='about'>
-        <h1>Brazil World Cup Teams History</h1>
+        <h1 className='hik'>Brazil World Cup Teams History</h1>
         <div className="cardBx">
 
             {data.map((values) =>{
